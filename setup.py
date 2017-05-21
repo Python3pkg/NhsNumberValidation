@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # License: MIT (http://www.opensource.org/licenses/mit-license.php)
 
-import nhs
+from . import nhs
 
 try:
     from setuptools import setup
